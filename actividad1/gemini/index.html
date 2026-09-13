@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinos Únicos | Turismo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilosIA.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <h1 class="logo">Viajes<span>DeEnsueño</span></h1>
+        <ul class="nav-links">
+            <li><a href="#home">Destinos</a></li>
+            <li><a href="#about">Quiénes Somos</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="page-section">
+        <header class="hero">
+            <h2>Explora el Mundo</h2>
+            <p>Selecciona tu próximo destino de ensueño</p>
+        </header>
+
+        <div class="category-selector">
+            <input type="radio" id="cat-playas" name="categoria" checked>
+            <input type="radio" id="cat-montanas" name="categoria">
+            
+            <div class="labels-container">
+                <label for="cat-playas" class="lbl-playas">Playas Cálidas</label>
+                <label for="cat-montanas" class="lbl-montanas">Montañas Frías</label>
+            </div>
+
+            <div class="destinos-grid grid-playas">
+                <article class="card card-calida">
+                    <img src="imagenes/maldivas.png" alt="Maldivas">
+                    <div class="card-content">
+                        <h3>Islas Maldivas</h3>
+                        <p>Aguas cristalinas y arena blanca en un paraíso tropical inigualable.</p>
+                        <a href="guias/maldivas_itinerario.pdf" class="btn btn-calido" download>Descargar Itinerario</a>
+                    </div>
+                </article>
+                <article class="card card-calida">
+                    <img src="imagenes/cancun.png" alt="Cancún">
+                    <div class="card-content">
+                        <h3>Cancún, México</h3>
+                        <p>Disfruta de las mejores playas del Caribe y una vibrante vida nocturna.</p>
+                        <a href="guias/cancun_itinerario.pdf" class="btn btn-calido" download>Descargar Itinerario</a>
+                    </div>
+                </article>
+                <article class="card card-calida">
+                    <img src="imagenes/borabora.png" alt="Bora Bora">
+                    <div class="card-content">
+                        <h3>Bora Bora</h3>
+                        <p>Bungalows sobre el agua y atardeceres mágicos en la Polinesia Francesa.</p>
+                        <a href="guias/borabora_itinerario.pdf" class="btn btn-calido" download>Descargar Itinerario</a>
+                    </div>
+                </article>
+                <article class="card card-calida">
+                    <img src="imagenes/tulum.png" alt="Tulum">
+                    <div class="card-content">
+                        <h3>Tulum, Riviera Maya</h3>
+                        <p>Ruinas mayas junto al mar y un ambiente bohemio relajante.</p>
+                        <a href="guias/tulum_itinerario.pdf" class="btn btn-calido" download>Descargar Itinerario</a>
+                    </div>
+                </article>
+                <article class="card card-calida">
+                    <img src="imagenes/puntacana.png" alt="Punta Cana">
+                    <div class="card-content">
+                        <h3>Punta Cana</h3>
+                        <p>Resorts de lujo y palmeras interminables en República Dominicana.</p>
+                        <a href="guias/puntacana_itinerario.pdf" class="btn btn-calido" download>Descargar Itinerario</a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="destinos-grid grid-montanas">
+                <article class="card card-fria">
+                    <img src="imagenes/alpes.png" alt="Alpes Suizos">
+                    <div class="card-content">
+                        <h3>Alpes Suizos</h3>
+                        <p>Majestuosos picos nevados, ideales para el esquí y el alpinismo.</p>
+                        <a href="guias/alpes_itinerario.pdf" class="btn btn-frio" download>Descargar Itinerario</a>
+                    </div>
+                </article>
+                <article class="card card-fria">
+                    <img src="imagenes/patagonia.png" alt="Patagonia">
+                    <div class="card-content">
+                        <h3>Patagonia, Fitz Roy</h3>
+                        <p>Desafía los senderos más imponentes del fin del mundo.</p>
+                        <a href="guias/patagonia_itinerario.pdf" class="btn btn-frio" download>Descargar Itinerario</a>
+                    </div>
+                </article>
+                <article class="card card-fria">
+                    <img src="imagenes/banff.png" alt="Banff">
+                    <div class="card-content">
+                        <h3>Parque Banff, Canadá</h3>
+                        <p>Lagos glaciares color turquesa rodeados de montañas imponentes.</p>
+                        <a href="guias/banff_itinerario.pdf" class="btn btn-frio" download>Descargar Itinerario</a>
+                    </div>
+                </article>
+                <article class="card card-fria">
+                    <img src="imagenes/fuji.png" alt="Monte Fuji">
+                    <div class="card-content">
+                        <h3>Monte Fuji, Japón</h3>
+                        <p>El pico sagrado de Japón, una experiencia espiritual y visual.</p>
+                        <a href="guias/fuji_itinerario.pdf" class="btn btn-frio" download>Descargar Itinerario</a>
+                    </div>
+                </article>
+                <article class="card card-fria">
+                    <img src="imagenes/himalaya.png" alt="Himalayas">
+                    <div class="card-content">
+                        <h3>Los Himalayas</h3>
+                        <p>El techo del mundo, reservado para los aventureros más audaces.</p>
+                        <a href="guias/himalaya_itinerario.pdf" class="btn btn-frio" download>Descargar Itinerario</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="page-section">
+        <div class="glass-container">
+            <h2>Quiénes Somos</h2>
+            <p>Somos apasionados por descubrir rincones ocultos y maravillas naturales. Nuestro equipo mantiene este sitio para ofrecerte guías detalladas, asegurando que tu próxima aventura sea tan elegante como inolvidable.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="page-section">
+        <div class="glass-container contact-form-container">
+            <h2>Ponte en Contacto</h2>
+            <form action="#" method="POST" class="contact-form">
+                <input type="text" placeholder="Tu Nombre" required>
+                <input type="email" placeholder="Tu Correo" required>
+                <textarea rows="5" placeholder="Tu Mensaje" required></textarea>
+                <button type="submit" class="btn btn-enviar">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
